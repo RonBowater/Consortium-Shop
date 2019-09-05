@@ -8,6 +8,18 @@ var G_selected_page;
 var G_selected_doc;
 var G_last_selected_doc;
 
+var G_vend_data;
+
+/**************************************************************/
+/* Set_vend_data called to send vend data from host initially */
+/**************************************************************/
+
+function set_vend_data(vend_data)
+{
+  console.log (vend_data);
+  G_vend_data = vend_data;
+}   
+
 // initialization from html
 function startjs ()
 {
