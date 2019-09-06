@@ -48,8 +48,7 @@ function startjs ()
 	// init all views
 	G_page_view = new G_page_view_definition();
 
-	// get the file
-    //file_get_contents ("hurrecdocs.csv", get_csv_cont, get_csv_error)
+	G_page_view.render(n)
 	return;
 }
 
