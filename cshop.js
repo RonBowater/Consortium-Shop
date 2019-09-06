@@ -8,19 +8,16 @@ var G_selected_page;
 var G_selected_doc;
 var G_last_selected_doc;
 
-var G_vend_data;
-
-
-
+var G_sheet_data;
 
 /**************************************************************/
-/* Set_vend_data called to send vend data from host initially */
+/* set_sheet_data called to send sheet data from host initially */
 /**************************************************************/
 
-function set_vend_data(vend_data)
+function set_sheet_data(sheet_data)
 {
-  console.log (vend_data);
-  G_vend_data = vend_data;
+  console.log (sheet_data);
+  G_sheet_data = sheet_data;
 }   
 
 // initialization from html
@@ -54,45 +51,6 @@ function startjs ()
 	// get the file
     //file_get_contents ("hurrecdocs.csv", get_csv_cont, get_csv_error)
 	return;
-}
-
-function get_csv_error (result)
-{
-	alert ("Error loading CSV file : " + result);
-}
-
-// document index csv loaded OK - parse the result
-function get_csv_cont (result) 
-{
-	// parse the csv
-	Papa.parse(result, 
-	{
-		quoteChar: '"',	
-		header: false,
-		dynamicTyping: true,
-	  
-		// parsing complete function
-		complete: function (parse_data)
-		{ 
-			process_csv_data(parse_data) 
-		}
-	});	
-}
-
-// come here after csv data has been parsed
-function process_csv_data (parse_data)
-{
-	// doc table is a 2d array of the CSV data (with the first being the header row)
-	G_DocTable = parse_data["data"];
-	
-	G_selected_view_id = null;
-	G_page_view.render(1);
-}
-
-// come here if error loading document index
-function reqError(err) 
-{
-	console.log('Fetch Error :-S', err);
 }
 
 // common switch view handler
