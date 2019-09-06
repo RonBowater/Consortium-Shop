@@ -10,6 +10,9 @@ var G_last_selected_doc;
 
 var G_vend_data;
 
+
+
+
 /**************************************************************/
 /* Set_vend_data called to send vend data from host initially */
 /**************************************************************/
