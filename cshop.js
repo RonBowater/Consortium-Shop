@@ -26,7 +26,9 @@ function startjs ()
 	// enable the root nav
 	var template = $("#T-root-structure").html();
 	$("div.root-div").html(_.template(template,{}));
-
+	
+	$(".warning").hide();
+	
 	// set up the body for the main operation panel
 	//document.getElementsByTagName('body')[0].style = 		 
 	//"font-family: Arial, Helvetica, sans-serif;" + 
