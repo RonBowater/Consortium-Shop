@@ -48,7 +48,7 @@ function startjs ()
 	// init all views
 	G_page_view = new G_page_view_definition();
 
-	G_page_view.render(n)
+	G_page_view.render(1)
 	return;
 }
 
