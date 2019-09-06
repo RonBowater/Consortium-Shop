@@ -59,7 +59,7 @@ body
 	height: 100%;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #555;
-	background: #fafafa url('../images/bg-body.gif') top left repeat-y;
+	background: #fafafa url('../Consortium-Shop/images/bg-body.gif') top left repeat-y;
 	font-size: 11px;
 }
 
@@ -211,7 +211,7 @@ p   {
 .button {
 				font-family: Verdana, Arial, sans-serif;
                 display: inline-block;
-                background: #459300 url('./images/bg-button-green.gif') top left repeat-x !important;
+                background: #459300 url('./Consortium-Shop/images/bg-button-green.gif') top left repeat-x !important;
                 border: 1px solid #459300 !important;
                 padding: 4px 7px 4px 7px !important;
                 color: #fff !important;
@@ -285,7 +285,7 @@ a.remove-link:hover {
 
 
 #sidebar .func-nav-list li a.nav-top-item { 
-                background: transparent url('../images/bg-menu-item-green.gif') right center no-repeat;  
+                background: transparent url('../Consortium-Shop/images/bg-menu-item-green.gif') right center no-repeat;  
                 padding: 10px 15px;
                 color: #fff;
                 font-size: 12px;
@@ -295,7 +295,7 @@ a.remove-link:hover {
                 }
                 
 #sidebar .cmd-nav-list li .nav-top-item {
-                background: transparent url('../images/bg-menu-item-blue.gif') right center no-repeat;  
+                background: transparent url('../Consortium-Shop/images/bg-menu-item-blue.gif') right center no-repeat;  
                 padding: 10px 15px;
                 color: #fff;
                 font-size: 12px;
@@ -305,7 +305,7 @@ a.remove-link:hover {
                 }
                 
 #sidebar .func-nav-list li a.nav-selected-item {
-                background: transparent url('../images/bg-menu-item-current.gif') right center no-repeat;  
+                background: transparent url('../Consortium-Shop/images/bg-menu-item-current.gif') right center no-repeat;  
                 padding: 10px 15px;
                 color: #000;
                 font-size: 12px;
@@ -315,7 +315,7 @@ a.remove-link:hover {
                 }            
                 
 #sidebar .func-nav-list li a.current {
-                background-image: url('../images/bg-menu-item-current.gif') !important;
+                background-image: url('../Consortium-Shop/images/bg-menu-item-current.gif') !important;
                 color: #333;
                 font-weight: bold;
                 }
@@ -357,7 +357,7 @@ a.remove-link:hover {
                 }
 
 #sidebar .func-nav-list ul li a.current {
-                background: transparent url('../images/menu-current-arrow.gif') right center no-repeat !important;
+                background: transparent url('../Consortium-Shop/images/menu-current-arrow.gif') right center no-repeat !important;
                 }
                 
 #sidebar h3 {
@@ -453,7 +453,7 @@ a.remove-link:hover {
                 }
 
 .content-box-header {
-                background: #e5e5e5 url('../images/bg-content-box.gif') top left repeat-x;
+                background: #e5e5e5 url('../Consortium-Shop/images/bg-content-box.gif') top left repeat-x;
                 margin-top: 1px;
                 height: 40px;
                 }
@@ -602,7 +602,7 @@ ul.content-box-tabs li a.current {
                 }
 
 .pagination a.current {
-                background: #469400 url('../images/bg-button-green.gif') top left repeat-x !important;
+                background: #469400 url('../Consortium-Shop/images/bg-button-green.gif') top left repeat-x !important;
                 border-color: #459300 !important;
                 color: #fff !important;
                 }
@@ -615,7 +615,7 @@ ul.content-box-tabs li a.current {
 
 .shortcut-button {
                 border: 1px solid #ccc;
-                background: #f7f7f7 url('../images/shortcut-button-bg.gif') top left no-repeat;
+                background: #f7f7f7 url('../Consortium-Shop/images/shortcut-button-bg.gif') top left no-repeat;
                 display: block;
                 width: 120px;
                 margin: 0 0 20px 0;
@@ -677,7 +677,7 @@ form textarea,
 form .wysiwyg {
                 padding: 6px;
                 font-size: 13px;
-                background: #fff url('../images/bg-form-field.gif') top left repeat-x;
+                background: #fff url('../Consortium-Shop/images/bg-form-field.gif') top left repeat-x;
                 border: 1px solid #d5d5d5;
 				color: #333;
                 }
